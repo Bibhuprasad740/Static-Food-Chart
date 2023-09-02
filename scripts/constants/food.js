@@ -1,3 +1,4 @@
+
 // Original Food Data
 const foodData = [
     {
@@ -320,48 +321,4 @@ const foodData = [
         "protiens": 18,
         "cab": 30
     }
-]
-
-// Tasks
-let task1 = 'All Food Data:';
-let task2 = 'All Vegetables:';
-let task3 = 'All Fruits:';
-let task4 = 'All Foods With Protein:';
-let task5 = 'All Nuts:';
-let task6 = 'All Grains:';
-let task7 = 'All Dairy:';
-let task8 = 'All Foods With Calories More Than 100:';
-let task9 = 'All Foods With Calories Less Than 100:';
-let task10 = 'All Foods From High to Low Protein:';
-let task11 = 'All Foods From Low to High Cab:';
-
-// Complete status checkers
-let task1Completed = false;
-let task2Completed = false;
-let task3Completed = false;
-let task4Completed = false;
-let task5Completed = false;
-let task6Completed = false;
-let task7Completed = false;
-let task8Completed = false;
-let task9Completed = false;
-let task10Completed = false;
-let task11Completed = false;
-
-// All task buttons
-let task1Btn = document.getElementById('task1-btn');
-let task2Btn = document.getElementById('task2-btn');
-let task3Btn = document.getElementById('task3-btn');
-let task4Btn = document.getElementById('task4-btn');
-let task5Btn = document.getElementById('task5-btn');
-let task6Btn = document.getElementById('task6-btn');
-let task7Btn = document.getElementById('task7-btn');
-let task8Btn = document.getElementById('task8-btn');
-let task9Btn = document.getElementById('task9-btn');
-let task10Btn = document.getElementById('task10-btn');
-let task11Btn = document.getElementById('task11-btn');
-
-let output = document.getElementById('output');
-let defaultParagraphText = 'Click a button to see the output..';
-let buttonUnselectedColor = 'rgb(207, 162, 102)';
-let buttonSelectedColor = 'green';
+];
