@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 50px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+#buttons-section {
+    margin: 20px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.paragraph {
+    /* text-align: center; */
+    padding: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
