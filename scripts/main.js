@@ -2,11 +2,11 @@
 function resetButton(button, output) {
     output.innerHTML = defaultParagraphText;
     button.style.color = 'black';
-    button.style.background = 'white';
+    button.style.background = buttonUnselectedColor;
 }
 
 function setButton(button) {
-    button.style.background = 'green';
+    button.style.background = buttonSelectedColor;
     button.style.color = 'white';
 }
 
